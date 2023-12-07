@@ -1,75 +1,41 @@
-# Nuxt 3 Minimal Starter
+# Movie Information App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is a movie information application developed using Vue 3, Nuxt 3, TypeScript, Pinia, Element Plus, and Tailwind CSS.
 
-## Setup
+## Overview
 
-Make sure to install the dependencies:
+The Movie Information App allows users to retrieve detailed information about movies. It interacts with the [OMDb API](https://www.omdbapi.com/) to gather comprehensive movie details.
 
-```bash
-# npm
-npm install
+## Features
 
-# pnpm
-pnpm install
+- Search for movies by name.
+- Retrieve extensive movie information, including plot, cast, ratings, and more.
+- Utilizes Vue 3 with the Nuxt 3 framework, ensuring efficient and reactive user interfaces.
+- Incorporates TypeScript for strong typing and improved code quality.
+- State management facilitated by Pinia for seamless data handling.
+- Enhanced UI components provided by Element Plus.
+- Tailwind CSS for a sleek and responsive design.
 
-# yarn
-yarn install
+## Getting Started
 
-# bun
-bun install
-```
+### Clone the repository
 
-## Development Server
+1. **Clone the Repository:** `git clone https://github.com/Forbik/movie-finder-nuxt3-pinia-typescript-tailwind.git`
+2. **Install Dependencies:** `yarn install`
+3. **Run the Project:** `yarn dev`
 
-Start the development server on `http://localhost:3000`:
+### Set up API Key
 
-```bash
-# npm
-npm run dev
+Obtain an API key from [OMDb API](https://www.omdbapi.com/apikey.aspx) and add it to your environment variables or configuration file.
 
-# pnpm
-pnpm run dev
+### Access the application
 
-# yarn
-yarn dev
+Open your browser and navigate to `http://localhost:3000`.
 
-# bun
-bun run dev
-```
+## Contribution
 
-## Production
+Contributions are welcome! Feel free to open issues or pull requests for any improvements, features, or bug fixes.
 
-Build the application for production:
+## License
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the [MIT License](LICENSE).
