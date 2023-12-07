@@ -13,7 +13,7 @@
       </div>
       <div class="mb-3">
         More information on GitHub -
-        <a href="https://github.com/Forbik/">https://github.com/Forbik/</a>
+        <a href="https://github.com/Forbik/movie-finder-nuxt3-pinia-typescript-tailwind">https://github.com/Forbik/movie-finder-nuxt3-pinia-typescript-tailwind</a>
       </div>
     </div>
   </div>
