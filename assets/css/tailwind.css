@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #040817;
+}
+.cover-bg {
+  background-size: cover;
+  background-image: linear-gradient(57deg, rgba(0, 0, 0, 0.9000) 20.00%, rgba(0, 0, 0, 0.8965) 25.92%, rgba(0, 0, 0, 0.8861) 31.83%, rgba(0, 0, 0, 0.8688) 37.75%, rgba(0, 0, 0, 0.8444) 43.67%, rgba(0, 0, 0, 0.8132) 49.58%, rgba(0, 0, 0, 0.7750) 55.50%, rgba(0, 0, 0, 0.7368) 61.42%, rgba(0, 0, 0, 0.7056) 67.33%, rgba(0, 0, 0, 0.6813) 73.25%, rgba(0, 0, 0, 0.6639) 79.17%, rgba(0, 0, 0, 0.6535) 85.08%, rgba(0, 0, 0, 0.6500) 91.00%), url('~/assets/images/covers-bg.jpg');
+}
+.transitions {
+  @apply transition duration-300 ease-in;
+}
