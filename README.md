@@ -2,6 +2,10 @@
 
 This project is a movie information application developed using Vue 3, Nuxt 3, TypeScript, Pinia, Element Plus, and Tailwind CSS.
 
+## Accessing the Application
+
+The application is available at [https://forbik.github.io/movie-finder-nuxt3-pinia-typescript-tailwind/](https://forbik.github.io/movie-finder-nuxt3-pinia-typescript-tailwind/). 
+
 ## Overview
 
 The Movie Information App allows users to retrieve detailed information about movies. It interacts with the [OMDb API](https://www.omdbapi.com/) to gather comprehensive movie details.
